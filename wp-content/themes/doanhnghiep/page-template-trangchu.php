@@ -11,7 +11,7 @@ get_header();
 				<div class="ric_hair">
 					<div class="container">
 						<div class="slide_richair">
-							<h3 class="title_dots"><span>Sâm tố nữ Puecolazen</span></h3>
+							<h3 class="title_dots"><span>RIC HAIR</span></h3>
 							<div class="row">
 								<div class="col-sm-6">
 									<?php 

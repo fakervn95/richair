@@ -70,7 +70,7 @@
 		
 		<?php if(is_front_page() && !is_home()){ ?>
 			<div class="banner_mb">
-			<figure><img src="<?php echo BASE_URL; ?>/images/banner_mb.png"></figure>
+			<figure><img src="<?php echo BASE_URL; ?>/images/banner_mb.jpg"></figure>
 		</div>
 			<?php echo do_shortcode('[metaslider id="29"]'); ?>
 		<?php }?>
