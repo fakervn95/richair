@@ -1134,6 +1134,19 @@ ul.list_categories li.parent_cat>a:not(:first-child)::before{
    display: table;
 }
 /* SINGLE POST */
+.single-post .product_append {
+    margin: 0px 0px 50px 0px;
+    background: #fff;
+    border: none;
+    padding: 0px 20px;
+    border-radius: 0px;
+}
+.single-post .cat_cskh .product_append{
+      border: 5px solid #016572;
+    border-radius: 30px;
+    padding: 30px 20px;
+    margin:25px 0px;
+}
 body.single-post{
     background: none;
 }
@@ -1939,11 +1952,14 @@ iframe{
 }
 /* end page-template-page-template-lienhe */
 /* css rau*/
-.list_suggest  .textwidget ul ,   .list_questions .textwidget ul , .content_single_post .text_content {
+.list_suggest  .textwidget ul ,   .list_questions .textwidget ul {
   list-style-type: initial;
   padding:0px 0px 0px 20px;
   font-size: 16px;
   line-height: 25px;
+}
+.content_single_post .text_content{
+  padding:0px;
 }
 .into_cg_feedback .panel-layout>.panel-grid>.panel-grid-cell:nth-child(1){
   width: 19% !important;

@@ -42,9 +42,9 @@ get_header();
 				endif;
 				wp_reset_postdata();
 				?>
-				<div class="product_append">
+				
 					<?php echo do_shortcode('[product_append_page]'); ?>
-				</div>
+				
 			</div>
 			<?php $related = get_posts( array( 'category__in' => wp_get_post_categories($post->ID), 'numberposts' => 2, 'post__not_in' => array($post->ID) ) ); ?>
 			<?php if($related){ ?>
@@ -208,6 +208,13 @@ get_header();
 					</div>
 				</div>
 			<?php }?>	
+			<?php if (  $postcat[0]->term_id !== 7  ) {  ?>
+				<div class="product_append_single">
+						<div class="container">
+							<?php echo do_shortcode('[product_append_page]'); ?>
+						</div>
+					</div>	
+				<?php }?>	
 		</div>
 	</div>
 	<?php get_footer(); ?>
