@@ -22,7 +22,7 @@ get_header();
 									echo $content;
 									?>	
 									<div class="read_more">
-										<a href="<?php echo get_page_link(390); ?>">Xem thêm</a>
+										<a href="<?php echo get_page_link(611); ?>">Xem thêm</a>
 									</div>
 								</div>
 								<div class="col-sm-6">
